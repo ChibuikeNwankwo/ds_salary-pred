@@ -1,12 +1,19 @@
 # Data Science Salary Prediction
 
 ## Description
-This project analyzes and predicts data science salaries using machine learning techniques. The main notebook, `project.ipynb`, explores salary data, performs data cleaning, feature engineering, hypertuning parameters, and builds predictive models to estimate salaries based on various factors such as job title, experience, location, and company size.
+This project analyzes and predicts data science salaries using machine learning techniques. The main notebook, `project.ipynb`, explores salary data, performs data cleaning, feature engineering, hypertuning parameters, and builds predictive models to estimate salaries based on various factors such as job title, experience, location, and company size. The dataset is included in the repo
 
 ## Features
 - Exploratory Data Analysis (EDA) of salary datasets
 - Data preprocessing and visualization
 - Model training and evaluation (e.g., Linear Regression, Random Forest)
+
+## 📊 Model Performance
+
+After training several models, the best performing result came from using a Stacking ensemble method:
+- R² Score: 0.4611
+- RMSE: ~$45,000
+Note: Salaries are inherently noisy and the dataset is under 4,000 rows, which may limit model performance.
 
 ## Getting Started
 1. Clone the repository.
